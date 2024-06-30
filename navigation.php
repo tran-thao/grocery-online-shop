@@ -26,7 +26,7 @@ $cartItemCount = isset($_SESSION['cart']) ? count($_SESSION['cart']) : 0;
             echo "<li>";
             if ($has_subcategories) {
                 echo "<div class='dropdown'>";
-                echo "<button class='dropbtn'>$category_name <i class='fa fa-caret-down'></i></button>";
+                echo "<button class='dropbtn'>$category_name</button>";
                 echo "<div class='dropdown-content'>";
                 while ($subcategory_row = mysqli_fetch_assoc($subcategories_result)) {
                     $subcategory_id = $subcategory_row['category_id'];
