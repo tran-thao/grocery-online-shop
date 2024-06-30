@@ -1,4 +1,4 @@
-# grocery-online-shop
+# An Online Grocery Store with Graphic User Interface
 
 This project involves creating a dynamic website for an online grocery store, providing a simulated shopping experience for users.
 
